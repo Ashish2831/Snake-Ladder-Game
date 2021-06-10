@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #dice {
+            border: 1px solid black;
+            display: inline-block;
+            padding: 20px;
+            font-size: 1.2rem;
+        }
+
+        .col {
+            border: 1px solid black;
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+        }
+
+        .player {
+            background-color: rgb(98, 174, 236);
+        }
+
+        .snake {
+            background-color: rgb(243, 169, 169);
+        }
+
+        .ladder {
+            background-color: rgb(131, 243, 131);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="game-container">
+        <section id="board"></section>
+        <hr>
+        <section class="dice">
+            <div id="dice">0</div>
+            <button id="roll-dice">Roll Dice</button>
+        </section>
+    </div>
+</body>
+
+<script src="Js/game.js"></script>
+
+</html>
